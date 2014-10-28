@@ -33,7 +33,7 @@ func main() {
 
 	log.SetLevel(cfg.Logging.Level)
 	log.Notice("starting")
-	log.notice("PTSD Debug Build")
+	log.Notice("PTSD Debug Build")
 	log.Info("using Docker at %s", cfg.Docker.URI)
 	log.Info("using etcd at %s", strings.Join(cfg.Etcd.URIs, ", "))
 
